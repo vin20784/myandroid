@@ -9,6 +9,9 @@
         android:roundIcon="@mipmap/ds_ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".WelcomeScreenLandingactivity"/>
+        <activity android:name=".MockVerifyActLaterMail" />
+        <activity android:name=".RegisterPageActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
