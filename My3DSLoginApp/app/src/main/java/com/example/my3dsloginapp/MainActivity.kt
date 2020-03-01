@@ -2,6 +2,7 @@ package com.example.my3dsloginapp
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
 
@@ -10,10 +11,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        /*var dObj = MyDataObjXfer(
-            Integer.valueOf(Id.text.toString()),Name.text.toString(),
-            Integer.parseInt(Age.text.toString())
-        )*/
+      // reg_id.setOnClickListener()
+
 
     }
 
