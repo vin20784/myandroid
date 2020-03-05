@@ -26,8 +26,6 @@ class MainActivity : AppCompatActivity() {
         dataList.add(MovieModel("The Dark Knight", 2008, "Christopher Nolan" ,4.2,R.drawable.darknight))
         dataList.add(MovieModel("Inception", 2010, "Christopher Nolan" ,4.4,R.drawable.inception))
 
-
-
         //        pass the values to RvAdapter
         val rvAdapter = RcViewAdapter(this,dataList)
 //        set the recyclerView to the adapter
